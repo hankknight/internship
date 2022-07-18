@@ -1,4 +1,4 @@
-# Time Series Sequential Sampler
+# 能力测试
 
 ## 环境需求
 - 操作系统: Ubuntu 20.04
@@ -21,7 +21,7 @@
 - 输入参数
     - `data` 交易数据
         - 键: `string` 公司股票代码。
-        - 值: `tensor` 均为2维，其中行表示时间，列表示行情指标或其他指标。
+        - 值: `tensor` 均为2维，其中行表示时间，列表示行情或其他指标。
     - `step_len` 样本步长
     - `meta_info` 信息元数据
         - 键: `string` 公司股票代码。
